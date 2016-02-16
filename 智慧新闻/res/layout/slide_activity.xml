@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Vpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btn_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/btn"
+        android:visibility="gone"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="开始使用"
+        android:textColor="@drawable/textcolor" />
+
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        >
+        
+        
+    <LinearLayout
+        android:id="@+id/ll_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+    </LinearLayout>
+    <View 
+        android:id="@+id/red_point"
+        android:layout_marginBottom="24dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/shape_point_red"/>
+    </RelativeLayout>
+    
+
+</RelativeLayout>
